@@ -267,6 +267,7 @@ All code is in `code/` and all raw outputs are in `data/`. Graphs were generated
 4. **A stronger fixed-endpoint property (new conjecture).** For a vertex $b$, let $R_b(G)$ be the graph on Hamiltonian paths with endpoint $b$, with backbites only at the other end (Pósa rotations). Then:
 
    - For every graph with $n\le10$ and $\delta\ge n/2$ (all 108,376 graphs at $n=10$), $R_b(G)$ is connected for every $b$.
+   - A random sample of 18,031 graphs with $n=11$ and $\delta\ge6$ shows no failure either.
    - The property fails for some graphs with $\delta=(n-1)/2$ ($n=7$: 9 graphs, $n=9$: 12 graphs).
    - Connectivity of all $R_b(G)$ implies connectivity of $R(G)$ for Hamiltonian $G$. Walk around a Hamiltonian cycle: $C-bb^+$ has endpoints $b$ and $b^+$.
 

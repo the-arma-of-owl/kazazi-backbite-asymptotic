@@ -3,3 +3,4 @@ BITTI n8_d3: graf=2590 sabit_uc_baglantisiz=136
 BITTI n9_d4: graf=15471 sabit_uc_baglantisiz=12 
 BITTI n7_d3: graf=150 sabit_uc_baglantisiz=9 
 BITTI n8_d2c: graf=7442 sabit_uc_baglantisiz=3280 
+# n=11, delta>=6: random sample via geng res/mod (slices 0,5,...,35 of 400): graphs=18031 failures=0
