@@ -186,7 +186,7 @@ The code is in [`verification/referee_code/`](verification/referee_code/) (path 
 | §4/§5 inequalities, Hoeffding, constants | `t_numeric.py` | 0 failures (exact rationals); Hoeffding never violated; $n_0$ doubly exponential |
 | §6.1, $n\le9$, all $\delta\ge\lceil n/2\rceil$, direct | `t_sec6_heavy.py conj` | $n=4..9$: 3 + 3 + 19 + 29 + 424 + 1165 graphs, all connected ✓ |
 | §6.1, $n=10$, $\delta\ge5$ | `t_sec6_heavy.py conj` | 108,376 graphs; 107,296 contain $P_{10}^2$; **1,080** checked directly, all connected; max 93,312 paths ✓ |
-| §6.1, $n=11$, $\delta\ge6$ | `t_conj11.py`, `t_conj11b.py` | 868,311 graphs; 868,030 contain $P_{11}^2$; **281** checked directly — RESULT_N11 |
+| §6.1, $n=11$, $\delta\ge6$ | `t_conj11.py`, `t_conj11b.py` | 868,311 graphs; 868,030 contain $P_{11}^2$; **281** checked directly, all connected; max 907,200 paths ✓ |
 | §6.2, Ore, $n=5..9$ | `t_sec6_heavy.py ore` | 5, 21, 68, 503, 4942 graphs, all connected ✓ |
 | §6.2, $n=9$, $\delta\ge3$ | `t_sec6_heavy.py conj` | 84,245 graphs; 33,502 contain $P_9^2$; 29 have no Hamiltonian path; 50,714 checked, all connected ✓ |
 | §6.2, $n=10$, $\delta\ge4$ | `t_sec6_heavy.py conj_sample` | random sample of 3,000 graphs without $P_{10}^2$: all connected (only a sample; not the full 288,268) |
