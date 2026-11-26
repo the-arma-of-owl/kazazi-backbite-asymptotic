@@ -1,6 +1,6 @@
 # Backbite reconfiguration: Kazazi's conjecture holds asymptotically
 
-**Paper:** [`paper/asymptotic_threshold.md`](paper/asymptotic_threshold.md) · **Independent verification:** [`VERIFICATION.md`](VERIFICATION.md) · **Code:** [`code/`](code/) · **Data:** [`data/`](data/)
+**Paper:** [`paper/asymptotic_threshold.md`](paper/asymptotic_threshold.md) · **Independent verification:** [`VERIFICATION.md`](VERIFICATION.md), [`REVIEW_GPT-6.2-Sol.md`](REVIEW_GPT-6.2-Sol.md), [`verification/astra/`](verification/astra/) · **Lean:** [`lean/`](lean/) · **Code:** [`code/`](code/) · **Data:** [`data/`](data/)
 
 ## Result
 
@@ -12,7 +12,7 @@ A. Kazazi ([arXiv:2610.05068](https://arxiv.org/abs/2610.05068), Oct 2026) prove
 
 So the minimum-degree threshold is $n/2+o(n)$. This improves the proven ratio from $2/3$ to the conjectured $1/2$, asymptotically. The exact conjecture ($\delta\ge n/2$ for every $n$) remains open.
 
-**Key new tool: the vertex-extension lemma.** If $\delta(H)\ge |H|/2+2$ and $R(H)$ is connected, then adding a vertex with at least $|H|/2+2$ neighbours in $H$ keeps $R$ connected.
+**Key new tool: the vertex-extension lemma.** If $\delta(H)\ge |H|/2+2$ and $R(H)$ is connected, then adding a vertex with at least $|H|/2+2$ neighbours in $H$ keeps $R$ connected. This lemma is fully proved in Lean 4 ([`lean/`](lean/)), as are Lemma 1, Facts A and B, and the Hamiltonicity example below. Theorem 1 itself is not formalized.
 
 The proof has three further ingredients:
 
@@ -41,12 +41,24 @@ Ayrıca bilgisayarla şunları gösterdik:
 - Hamilton döngüsü olması tek başına yetmez; $n=10$'da bir örnek var.
 - Daha güçlü bir "sabit uçlu" sürüm $n\le 10$'da doğrudur ve $n/2$'nin hemen altında bozulur. Bunu yeni bir sanı olarak öneriyoruz.
 
+Sonlu hesapları GPT-6.2 Astra da kendi koduyla ve kısmen farklı yöntemlerle yeniden doğruladı (`verification/astra/`). İspatın yeni anahtar lemması (Lemma 3, tepe ekleme) Lean 4'te eksiksiz doğrulandı. Lemma 1, Olgu A, Olgu B ve "Hamilton yetmez" örneği de Lean'de doğrulandı (`lean/`). Teorem 1'in tamamı Lean'e geçirilmedi.
+
 ## How this was produced
 
 - **Direction.** Efe Çam directed the work.
 - **Proof.** The proof idea and first draft of the proof came from **GPT-6.2 Astra** (OpenAI, via Codex), prompted with the problem and our computational findings.
 - **Computations, checking and write-up.** **Claude** (Anthropic, via Claude Code) wrote and ran all computations, checked the proof line by line, filled in the details and wrote the paper.
 - **Independent verification.** A separate Claude instance with no access to the above reasoning refereed the write-up adversarially; see [`VERIFICATION.md`](VERIFICATION.md). A second review came from GPT-6.2 Sol ([`REVIEW_GPT-6.2-Sol.md`](REVIEW_GPT-6.2-Sol.md)). Both reviews were of v1; their minor fixes are in v1.1 (see [`CHANGELOG.md`](CHANGELOG.md)).
+- **Third check (GPT-6.2 Astra).** Working from this repository at commit `9178b05`, GPT-6.2 Astra re-derived the finite results with its own code and partly different methods:
+  - Burnside counts of the graphs;
+  - a structural proof that every graph with $n=12$ and $\delta\ge6$ contains one of the three skeletons, via edge-minimal spanning subgraphs;
+  - a descent over all $12!/2$ orderings showing that the ladder and $d_{13}$ are forcing.
+
+  It does not referee the written proof of Theorem 1. The package and our re-run are in [`verification/astra/`](verification/astra/).
+- **Lean.** A Claude (Opus 5.5) agent wrote the Lean 4 formalization in [`lean/`](lean/). The coordinating Claude session then audited it:
+  - compared the definitions and statements with the paper;
+  - checked the code for `sorry`, extra axioms and `native_decide`;
+  - rebuilt it from scratch.
 
 Errors are possible. Please open an issue if you find one.
 

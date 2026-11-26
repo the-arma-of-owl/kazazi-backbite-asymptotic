@@ -7,6 +7,8 @@ None of these changes affects the mathematics.
 - **§6.4.** Added an $n=11$ sample for the fixed-endpoint property: 18,031 graphs, no failures.
 - **`VERIFICATION.md`.** The referee's independent $n=11$ check finished: 281/281 connected.
 - **Citation.** Added [`CITATION.cff`](CITATION.cff) and a BibTeX entry in the README.
+- **Third independent check.** Added GPT-6.2 Astra's verification package and our re-run of it ([`verification/astra/`](verification/astra/)). Every figure agrees.
+- **Lean.** Added a Lean 4 formalization in [`lean/`](lean/). It covers the definitions, Lemma 1, Facts A and B, Lemma 3 (fully proved) and §6 item 3. Theorem 1 itself is not formalized.
 
 ## v1.1 (26 Nov 2026)
 

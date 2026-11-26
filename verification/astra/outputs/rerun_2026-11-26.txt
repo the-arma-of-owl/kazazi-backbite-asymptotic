@@ -1,0 +1,67 @@
+Re-run of the GPT-6.2 Astra verification package, 26 November 2026.
+Environment: Linux x86_64, Python 3.14.10, SymPy 1.14.0, GCC 16.2.1 (c++ -std=c++17 -O3), nauty 2.9.3 (geng).
+Run against commits davidson 9f2a8de and kazazi 9178b05. Commands as in README.md; wall-clock seconds in parentheses.
+
+$ python davidson.py davidson
+K=78, max |sigma| = 0.9926862486951674
+K=79, certified nodes = 75530 max depth = 67
+(5 s)
+
+$ python count_graphs.py
+10 5 108376
+11 6 868311
+12 6 495369040
+(1 s)
+
+$ geng -u -d5 10 ; geng -u -d6 11      # cross-check of the counts
+>Z 108376 graphs generated in 0.05 sec
+>Z 868311 graphs generated in 0.34 sec
+
+$ python path_examples.py
+example [4, 18]
+4 6 3
+5 10 3
+6 17 5
+7 28 6
+8 44 7
+9 68 8
+10 104 10
+11 157 11
+12 235 12
+13 350 14
+14 519 15
+15 767 16
+16 1131 18
+17 1665 19
+18 2448 21
+ladder 32 paths; connected
+d13 321 paths; connected
+(3 s)
+
+$ python check12.py geng ./minimal
+high=0 low_input=7849 completions=7849 all covered
+high=1 low_input=41905 completions=41905 all covered
+high=2 low_input=37389 completions=126247 all covered
+high=3 low_input=1674 completions=9918 all covered
+high=4 low_input=95 completions=95 all covered
+high=5: no solutions (incompatible edge counts)
+(1 s)
+
+$ python kazazi/code/aday.py ladder 12 | ./descent
+orders 239500800 paths 32; all others have a descending move after <=4 neutral moves
+(2 s)
+
+$ python kazazi/code/aday.py d13 12 | ./descent
+orders 239500800 paths 321; all others have a descending move after <=3 neutral moves
+(2 s)
+
+$ geng -q -d5 10 | ./bbconn -s
+OZET toplam=108376 ore_degil=0 kare_yol_atlanan=107296 hamilton_yolu_yok=0 incelenen=1080 baglantisiz=0 en_cok_yol=93312
+(17 s)
+
+$ geng -q -d6 11 | ./bbconn -s
+OZET toplam=868311 ore_degil=0 kare_yol_atlanan=868030 hamilton_yolu_yok=0 incelenen=281 baglantisiz=0 en_cok_yol=907200
+(79 s)
+
+bbconn labels: toplam = total, kare_yol_atlanan = skipped (contains a spanning squared path; Kazazi's theorem applies),
+incelenen = checked directly, baglantisiz = disconnected, ore_degil = not Ore, hamilton_yolu_yok = no Hamiltonian path.
