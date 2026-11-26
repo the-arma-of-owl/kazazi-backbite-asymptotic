@@ -4,6 +4,7 @@ title: "Backbite reconfiguration of Hamiltonian paths: the minimum-degree thresh
 authors:
   - family-names: "Çam"
     given-names: "Efe"
+    orcid: "https://orcid.org/0009-0003-2488-1287"
 version: "1.1"
 date-released: "2026-11-26"
 url: "https://github.com/the-arma-of-owl/kazazi-backbite-asymptotic"
@@ -32,6 +33,7 @@ preferred-citation:
   authors:
     - family-names: "Çam"
       given-names: "Efe"
+    orcid: "https://orcid.org/0009-0003-2488-1287"
   year: 2026
   month: 11
   url: "https://github.com/the-arma-of-owl/kazazi-backbite-asymptotic"
