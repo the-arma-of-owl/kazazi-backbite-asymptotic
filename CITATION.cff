@@ -33,7 +33,7 @@ preferred-citation:
   authors:
     - family-names: "Çam"
       given-names: "Efe"
-    orcid: "https://orcid.org/0009-0003-2488-1287"
+      orcid: "https://orcid.org/0009-0003-2488-1287"
   year: 2026
   month: 11
   url: "https://github.com/the-arma-of-owl/kazazi-backbite-asymptotic"
