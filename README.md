@@ -75,6 +75,21 @@ Some output labels are in Turkish:
 | `ulasilan` | reached |
 | `bilesen` | components |
 
+## Citation / Atıf
+
+```bibtex
+@misc{cam2026backbite,
+  author       = {{\c{C}}am, Efe},
+  title        = {Backbite reconfiguration of {H}amiltonian paths: the minimum-degree threshold is asymptotically $n/2$},
+  year         = {2026},
+  month        = nov,
+  howpublished = {\url{https://github.com/the-arma-of-owl/kazazi-backbite-asymptotic}},
+  note         = {Version 1.1}
+}
+```
+
+The same metadata is in [`CITATION.cff`](CITATION.cff), which GitHub uses for its “Cite this repository” button. Atıf için bu BibTeX kaydını ya da GitHub'daki “Cite this repository” düğmesini kullanabilirsiniz.
+
 ## License
 
 Text: CC BY 4.0. Code: MIT.

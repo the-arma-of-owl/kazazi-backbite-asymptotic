@@ -1,5 +1,13 @@
 # Changelog
 
+## After v1.1 (26 Nov 2026)
+
+None of these changes affects the mathematics.
+
+- **§6.4.** Added an $n=11$ sample for the fixed-endpoint property: 18,031 graphs, no failures.
+- **`VERIFICATION.md`.** The referee's independent $n=11$ check finished: 281/281 connected.
+- **Citation.** Added [`CITATION.cff`](CITATION.cff) and a BibTeX entry in the README.
+
 ## v1.1 (26 Nov 2026)
 
 v1.1 incorporates the two independent reviews of v1: [`VERIFICATION.md`](VERIFICATION.md) (Claude) and [`REVIEW_GPT-6.2-Sol.md`](REVIEW_GPT-6.2-Sol.md). Both found **no mathematical error in the proof of Theorem 1**. The v1 text is kept as `paper/.v1_reviewed.md`.

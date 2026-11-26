@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use these results, please cite them as below."
+title: "Backbite reconfiguration of Hamiltonian paths: the minimum-degree threshold is asymptotically n/2"
+authors:
+  - family-names: "Çam"
+    given-names: "Efe"
+version: "1.1"
+date-released: "2026-11-26"
+url: "https://github.com/the-arma-of-owl/kazazi-backbite-asymptotic"
+repository-code: "https://github.com/the-arma-of-owl/kazazi-backbite-asymptotic"
+license:
+  - CC-BY-4.0
+  - MIT
+abstract: >-
+  For every gamma > 0 and every sufficiently large n, every graph on n vertices
+  with minimum degree at least (1/2 + gamma)n has a connected backbite
+  reconfiguration graph R(G) of Hamiltonian paths. Together with Kazazi's
+  constructions, the minimum-degree threshold in Kazazi's Conjecture 7.8
+  (arXiv:2610.05068) is therefore n/2 + o(n). The repository also contains an
+  exhaustive computer check of the conjecture for n <= 12, further
+  computations, and two independent referee reports.
+keywords:
+  - graph theory
+  - Hamiltonian paths
+  - reconfiguration
+  - backbite
+  - Pósa rotation
+  - minimum degree
+preferred-citation:
+  type: generic
+  title: "Backbite reconfiguration of Hamiltonian paths: the minimum-degree threshold is asymptotically n/2"
+  authors:
+    - family-names: "Çam"
+      given-names: "Efe"
+  year: 2026
+  month: 11
+  url: "https://github.com/the-arma-of-owl/kazazi-backbite-asymptotic"
+  notes: "Version 1.1"
+references:
+  - type: article
+    title: "Connectivity of the reconfiguration graph of Hamiltonian paths"
+    authors:
+      - family-names: "Kazazi"
+        given-names: "A."
+    year: 2026
+    journal: "arXiv preprint"
+    url: "https://arxiv.org/abs/2610.05068"
