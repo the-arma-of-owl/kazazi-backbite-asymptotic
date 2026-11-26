@@ -1,0 +1,12 @@
+# G = C_10 + edges of an unreachable ordering; graph6 and R(G) components
+BAGLANTISIZ IhcGHC@`G n=10 delta=2 yol=22 bilesen=2
+  boyutlar: 18 4
+BAGLANTISIZ IhCHIC@aG n=10 delta=2 yol=22 bilesen=2
+  boyutlar: 18 4
+BAGLANTISIZ IhCIGCHcG n=10 delta=2 yol=22 bilesen=2
+  boyutlar: 18 4
+BAGLANTISIZ IhDKGCP_G n=10 delta=2 yol=22 bilesen=2
+  boyutlar: 18 4
+BAGLANTISIZ IhEGGc`_G n=10 delta=2 yol=22 bilesen=2
+  boyutlar: 18 4
+OZET toplam=5 ore_degil=0 kare_yol_atlanan=0 hamilton_yolu_yok=0 incelenen=5 baglantisiz=5 en_cok_yol=22

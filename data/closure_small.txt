@@ -1,0 +1,20 @@
+n=4 threshold n+1:
+KAPANIS_OZET graf=6 cift=0 geri_ihlal=0 ileri_ihlal=0
+n=4 threshold n:
+KAPANIS_OZET graf=6 cift=3 geri_ihlal=0 ileri_ihlal=0
+n=5 threshold n+1:
+KAPANIS_OZET graf=21 cift=5 geri_ihlal=0 ileri_ihlal=0
+n=5 threshold n:
+KAPANIS_OZET graf=21 cift=15 geri_ihlal=0 ileri_ihlal=0
+n=6 threshold n+1:
+KAPANIS_OZET graf=112 cift=45 geri_ihlal=0 ileri_ihlal=0
+n=6 threshold n:
+KAPANIS_OZET graf=112 cift=170 geri_ihlal=0 ileri_ihlal=0
+n=7 threshold n+1:
+KAPANIS_OZET graf=853 cift=684 geri_ihlal=0 ileri_ihlal=0
+n=7 threshold n:
+KAPANIS_OZET graf=853 cift=1728 geri_ihlal=2 ileri_ihlal=1
+n=8 threshold n+1:
+KAPANIS_OZET graf=11117 cift=12807 geri_ihlal=0 ileri_ihlal=1
+n=8 threshold n:
+KAPANIS_OZET graf=11117 cift=32400 geri_ihlal=16 ileri_ihlal=8

@@ -1,0 +1,2 @@
+n=9, delta>=3:
+OZET toplam=84245 ore_degil=0 kare_yol_atlanan=33502 hamilton_yolu_yok=29 incelenen=50714 baglantisiz=0 en_cok_yol=21600

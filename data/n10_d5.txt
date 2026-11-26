@@ -1,0 +1,1 @@
+OZET toplam=108376 ore_degil=0 kare_yol_atlanan=107296 hamilton_yolu_yok=0 incelenen=1080 baglantisiz=0 en_cok_yol=93312

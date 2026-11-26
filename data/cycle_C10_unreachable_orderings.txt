@@ -1,0 +1,21 @@
+n=10 J_yol=10 ulasilan=1814380 / 1814400  DEGIL(ii)
+ornek_ulasilamayan: 0 1 7 8 9 4 3 2 6 5
+ornek_ulasilamayan: 0 1 7 8 9 4 5 6 2 3
+ornek_ulasilamayan: 0 9 3 2 1 6 5 4 8 7
+ornek_ulasilamayan: 0 9 3 2 1 6 7 8 4 5
+ornek_ulasilamayan: 1 0 4 3 2 7 6 5 9 8
+ornek_ulasilamayan: 1 0 4 3 2 7 8 9 5 6
+ornek_ulasilamayan: 1 2 8 9 0 5 4 3 7 6
+ornek_ulasilamayan: 1 2 8 9 0 5 6 7 3 4
+ornek_ulasilamayan: 2 1 5 4 3 8 7 6 0 9
+ornek_ulasilamayan: 2 1 5 4 3 8 9 0 6 7
+ornek_ulasilamayan: 2 3 9 0 1 6 5 4 8 7
+ornek_ulasilamayan: 2 3 9 0 1 6 7 8 4 5
+ornek_ulasilamayan: 3 2 6 5 4 9 0 1 7 8
+ornek_ulasilamayan: 3 4 0 1 2 7 6 5 9 8
+ornek_ulasilamayan: 3 4 0 1 2 7 8 9 5 6
+ornek_ulasilamayan: 4 3 7 6 5 0 1 2 8 9
+ornek_ulasilamayan: 4 5 1 2 3 8 7 6 0 9
+ornek_ulasilamayan: 4 5 1 2 3 8 9 0 6 7
+ornek_ulasilamayan: 5 6 2 3 4 9 0 1 7 8
+ornek_ulasilamayan: 6 7 3 4 5 0 1 2 8 9

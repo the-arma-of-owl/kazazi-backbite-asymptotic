@@ -1,0 +1,38 @@
+n=9 d>=5: total=1165 contain_square=0 checked_directly=1165 (no_HP=0) disconnected=0 max_paths=181440
+Ore n=5: graphs=5 disconnected=0
+Ore n=6: graphs=21 disconnected=0
+Ore n=7: graphs=68 disconnected=0
+Ore n=8: graphs=503 disconnected=0
+Ore n=9: graphs=4942 disconnected=0
+R_b n=8 d>=3 []: graphs=2590 failing=136; failing by delta={3: 136}
+R_b n=9 d>=4 []: graphs=15471 failing=12; failing by delta={4: 12}
+R_b n=6 d>=3 []: graphs=19 failing=0; failing by delta={}
+R_b n=5 d>=3 []: graphs=3 failing=0; failing by delta={}
+R_b n=4 d>=2 []: graphs=3 failing=0; failing by delta={}
+closure n=7 thr=n+0: graphs=853 pairs=1728 backward_violations=2 forward_violations=1
+  BACK ('F?zew', 'BACK', 2, 6, 2, 1)
+  BACK ('F?zmw', 'BACK', 2, 6, 2, 1)
+closure n=7 thr=n+1: graphs=853 pairs=684 backward_violations=0 forward_violations=0
+closure n=8 thr=n+1: graphs=11117 pairs=12807 backward_violations=0 forward_violations=1
+closure n=6 thr=n+0: graphs=112 pairs=170 backward_violations=0 forward_violations=0
+closure n=6 thr=n+1: graphs=112 pairs=45 backward_violations=0 forward_violations=0
+closure n=8 thr=n+0: graphs=11117 pairs=32400 backward_violations=16 forward_violations=8
+  BACK ('G?bbU{', 'BACK', 2, 7, 2, 1)
+  BACK ('G?bfU{', 'BACK', 2, 7, 2, 1)
+  BACK ('G?bb]{', 'BACK', 2, 7, 2, 1)
+  BACK ('G?be~[', 'BACK', 2, 6, 2, 1)
+  BACK ('G?`rf[', 'BACK', 3, 7, 2, 1)
+  BACK ('G?`vNW', 'BACK', 0, 5, 2, 1)
+  BACK ('G?`vN[', 'BACK', 0, 5, 2, 1)
+  BACK ('G?`rn[', 'BACK', 3, 7, 2, 1)
+  BACK ('G?`v^[', 'BACK', 0, 5, 2, 1)
+  BACK ('G?`v^[', 'BACK', 4, 5, 2, 1)
+  BACK ('G?bnRk', 'BACK', 0, 7, 2, 1)
+  BACK ('G?bnRk', 'BACK', 4, 7, 2, 1)
+  BACK ('G?bnU{', 'BACK', 2, 7, 2, 1)
+  BACK ('G?bn]{', 'BACK', 2, 7, 2, 1)
+  BACK ('GCRUVK', 'BACK', 0, 1, 2, 1)
+  BACK ('GCRUVK', 'BACK', 5, 6, 2, 1)
+n=10 d>=5: total=108376 contain_square=107296 checked_directly=1080 (no_HP=0) disconnected=0 max_paths=93312
+n=9 d>=3: total=84245 contain_square=33502 checked_directly=50743 (no_HP=29) disconnected=0 max_paths=21600
+ALLDONE

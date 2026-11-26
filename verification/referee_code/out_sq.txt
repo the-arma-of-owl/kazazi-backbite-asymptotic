@@ -1,0 +1,5 @@
+sq n=6: #HP=17 R(J) comps=1  (ii) reached 360/360 forcing=True
+sq n=7: #HP=28 R(J) comps=1  (ii) reached 2520/2520 forcing=True
+sq n=8: #HP=44 R(J) comps=1  (ii) reached 20160/20160 forcing=True
+sq n=9: #HP=68 R(J) comps=1  (ii) reached 181440/181440 forcing=True
+sq n=10: #HP=104 R(J) comps=1  (ii) reached 1814400/1814400 forcing=True

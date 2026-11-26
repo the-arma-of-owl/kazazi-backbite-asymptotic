@@ -1,0 +1,27 @@
+progress weak {'graphs': 25, 'B1': 1058, 'B2': 4307, 'B3': 7357, 'B4': 17640, 'B5': 307344, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 1}
+progress weak {'graphs': 50, 'B1': 3281, 'B2': 9515, 'B3': 22768, 'B4': 30444, 'B5': 661518, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 1}
+progress weak {'graphs': 75, 'B1': 5502, 'B2': 13912, 'B3': 39602, 'B4': 34504, 'B5': 967566, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 1}
+progress weak {'graphs': 100, 'B1': 6011, 'B2': 15105, 'B3': 42728, 'B4': 37516, 'B5': 1035376, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 1}
+progress weak {'graphs': 125, 'B1': 6675, 'B2': 16350, 'B3': 47150, 'B4': 40002, 'B5': 1115794, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 2}
+progress weak {'graphs': 150, 'B1': 8332, 'B2': 19805, 'B3': 58420, 'B4': 43746, 'B5': 1349426, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 3}
+progress weak {'graphs': 175, 'B1': 9740, 'B2': 22601, 'B3': 68315, 'B4': 49918, 'B5': 1546002, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 3}
+progress weak {'graphs': 200, 'B1': 11504, 'B2': 25545, 'B3': 78673, 'B4': 53258, 'B5': 1715092, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 3}
+progress weak {'graphs': 225, 'B1': 11809, 'B2': 26667, 'B3': 80799, 'B4': 58088, 'B5': 1778348, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 3}
+progress weak {'graphs': 250, 'B1': 12388, 'B2': 27739, 'B3': 84232, 'B4': 61424, 'B5': 1838582, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 3}
+progress weak {'graphs': 275, 'B1': 16210, 'B2': 37926, 'B3': 113212, 'B4': 68507, 'B5': 2529416, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 3}
+progress weak {'graphs': 300, 'B1': 20763, 'B2': 42991, 'B3': 135212, 'B4': 73196, 'B5': 2866394, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 3}
+progress weak {'graphs': 325, 'B1': 23150, 'B2': 49833, 'B3': 153496, 'B4': 83426, 'B5': 3332782, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 4}
+progress weak {'graphs': 350, 'B1': 25346, 'B2': 54138, 'B3': 168192, 'B4': 92280, 'B5': 3631890, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 4}
+progress weak {'graphs': 375, 'B1': 26031, 'B2': 56383, 'B3': 172538, 'B4': 105395, 'B5': 3794754, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 5}
+progress weak {'graphs': 400, 'B1': 27895, 'B2': 64639, 'B3': 186953, 'B4': 130632, 'B5': 4376516, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 5}
+progress weak {'graphs': 425, 'B1': 29433, 'B2': 67037, 'B3': 191559, 'B4': 134377, 'B5': 4511618, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 5}
+progress weak {'graphs': 450, 'B1': 34081, 'B2': 81347, 'B3': 226020, 'B4': 155493, 'B5': 5520086, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 5}
+progress weak {'graphs': 475, 'B1': 38204, 'B2': 101176, 'B3': 258154, 'B4': 183789, 'B5': 6912068, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 5}
+progress weak {'graphs': 500, 'B1': 41466, 'B2': 110475, 'B3': 281862, 'B4': 204642, 'B5': 7576094, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 5}
+progress weak {'graphs': 525, 'B1': 42046, 'B2': 111514, 'B3': 284501, 'B4': 208494, 'B5': 7632786, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 5}
+progress weak {'graphs': 550, 'B1': 43299, 'B2': 113948, 'B3': 292951, 'B4': 212120, 'B5': 7780218, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 5}
+progress weak {'graphs': 575, 'B1': 44817, 'B2': 118502, 'B3': 304705, 'B4': 228938, 'B5': 8109386, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 8}
+progress weak {'graphs': 600, 'B1': 45391, 'B2': 119321, 'B3': 308152, 'B4': 230222, 'B5': 8158630, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 8}
+progress weak {'graphs': 625, 'B1': 47700, 'B2': 130378, 'B3': 325528, 'B4': 258579, 'B5': 8943074, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 8}
+progress weak {'graphs': 650, 'B1': 50250, 'B2': 136572, 'B3': 344160, 'B4': 268576, 'B5': 9355054, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 8}
+Part B weak: {'graphs': 662, 'B1': 52732, 'B2': 148330, 'B3': 363465, 'B4': 290999, 'B5': 10194420, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 0, 'rem3_ok': 0, 'R(G)_disconnected': 8}

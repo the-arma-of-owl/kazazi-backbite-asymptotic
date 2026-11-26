@@ -1,0 +1,2 @@
+progress lemma4 {'graphs': 25, 'B1': 23220, 'B2': 139800, 'B3': 182520, 'B4': 29520, 'B5': 9644640, 'full_tested': 24, 'full_ok': 24, 'rem3_tested': 0, 'rem3_ok': 0}
+Part B lemma4 hyp: {'graphs': 40, 'B1': 41760, 'B2': 261720, 'B3': 328680, 'B4': 72720, 'B5': 18150000, 'full_tested': 40, 'full_ok': 40, 'rem3_tested': 0, 'rem3_ok': 0}

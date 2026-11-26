@@ -1,0 +1,9 @@
+C_3: J-paths=3 reached 3 / 3  unreachable=0  forcing(ii)=True
+C_4: J-paths=4 reached 12 / 12  unreachable=0  forcing(ii)=True
+C_5: J-paths=5 reached 60 / 60  unreachable=0  forcing(ii)=True
+C_6: J-paths=6 reached 360 / 360  unreachable=0  forcing(ii)=True
+C_7: J-paths=7 reached 2520 / 2520  unreachable=0  forcing(ii)=True
+C_8: J-paths=8 reached 20160 / 20160  unreachable=0  forcing(ii)=True
+C_9: J-paths=9 reached 181440 / 181440  unreachable=0  forcing(ii)=True
+C_10: J-paths=10 reached 1814380 / 1814400  unreachable=20  forcing(ii)=False
+   examples: [(0, 1, 7, 8, 9, 4, 3, 2, 6, 5), (0, 1, 7, 8, 9, 4, 5, 6, 2, 3), (0, 9, 3, 2, 1, 6, 5, 4, 8, 7)] ...

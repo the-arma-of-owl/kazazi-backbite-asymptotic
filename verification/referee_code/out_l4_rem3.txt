@@ -1,0 +1,4 @@
+progress remark3 {'graphs': 25, 'B1': 10970, 'B2': 74482, 'B3': 85224, 'B4': 117870, 'B5': 5048532, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 24, 'rem3_ok': 24}
+progress remark3 {'graphs': 50, 'B1': 28848, 'B2': 188142, 'B3': 226396, 'B4': 237230, 'B5': 12991060, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 49, 'rem3_ok': 49}
+progress remark3 {'graphs': 75, 'B1': 46170, 'B2': 296466, 'B3': 362188, 'B4': 352184, 'B5': 20458312, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 74, 'rem3_ok': 74}
+Part B remark3 hyp: {'graphs': 80, 'B1': 49758, 'B2': 313182, 'B3': 389980, 'B4': 362480, 'B5': 21543664, 'full_tested': 0, 'full_ok': 0, 'rem3_tested': 80, 'rem3_ok': 80}

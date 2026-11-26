@@ -1,0 +1,9 @@
+R_b n=6 d>=3 []: graphs=19 failing=0; failing by delta={}
+R_b n=5 d>=3 []: graphs=3 failing=0; failing by delta={}
+R_b n=4 d>=2 []: graphs=3 failing=0; failing by delta={}
+R_b n=10 d>=5 sparsest (25-26 edges): graphs=906 failing=0 []
+R_b n=10 d>=5 random sample: graphs=300 failing=0 []
+sq n=8: #HP=0 R(J) comps=0  (ii) reached 0/20160 forcing=False
+sq n=9: #HP=0 R(J) comps=0  (ii) reached 0/181440 forcing=False
+sq n=10: #HP=0 R(J) comps=0  (ii) reached 0/1814400 forcing=False
+AFTERDONE

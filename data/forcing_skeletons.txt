@@ -1,0 +1,21 @@
+sq n=8: R(J) baglantisiz=0 | n=8 J_yol=44 ulasilan=20160 / 20160  ZORLAYICI(ii)
+sq n=9: R(J) baglantisiz=0 | n=9 J_yol=68 ulasilan=181440 / 181440  ZORLAYICI(ii)
+sq n=10: R(J) baglantisiz=0 | n=10 J_yol=104 ulasilan=1814400 / 1814400  ZORLAYICI(ii)
+d13 n=8: R(J) baglantisiz=0 | n=8 J_yol=44 ulasilan=20160 / 20160  ZORLAYICI(ii)
+d13 n=9: R(J) baglantisiz=0 | n=9 J_yol=59 ulasilan=181440 / 181440  ZORLAYICI(ii)
+d13 n=10: R(J) baglantisiz=0 | n=10 J_yol=122 ulasilan=1814400 / 1814400  ZORLAYICI(ii)
+ladder n=8: R(J) baglantisiz=0 | n=8 J_yol=14 ulasilan=20160 / 20160  ZORLAYICI(ii)
+ladder n=10: R(J) baglantisiz=0 | n=10 J_yol=22 ulasilan=1814400 / 1814400  ZORLAYICI(ii)
+prism n=8: R(J) baglantisiz=0 | n=8 J_yol=72 ulasilan=20160 / 20160  ZORLAYICI(ii)
+prism n=10: R(J) baglantisiz=0 | n=10 J_yol=130 ulasilan=1814400 / 1814400  ZORLAYICI(ii)
+c13 n=8: R(J) baglantisiz=0 | n=8 J_yol=576 ulasilan=20160 / 20160  ZORLAYICI(ii)
+c13 n=9: R(J) baglantisiz=0 | n=9 J_yol=855 ulasilan=181440 / 181440  ZORLAYICI(ii)
+c13 n=10: R(J) baglantisiz=0 | n=10 J_yol=1920 ulasilan=1814400 / 1814400  ZORLAYICI(ii)
+grid3 n=9: R(J) baglantisiz=0 | n=9 J_yol=20 ulasilan=181440 / 181440  ZORLAYICI(ii)
+ladder n=12: R(J) baglantisiz=0 | n=12 J_yol=32 ulasilan=239500800 / 239500800  ZORLAYICI(ii)  | 65s
+d13 n=11: R(J) baglantisiz=0 | n=11 J_yol=169 ulasilan=19958400 / 19958400  ZORLAYICI(ii)  | 5s
+c13 n=11: R(J) baglantisiz=0 | n=11 J_yol=3047 ulasilan=19958400 / 19958400  ZORLAYICI(ii)  | 5s
+prism n=12: R(J) baglantisiz=0 | n=12 J_yol=228 ulasilan=239500800 / 239500800  ZORLAYICI(ii)  | 72s
+d13 n=12: R(J) baglantisiz=0 | n=12 J_yol=321 ulasilan=239500800 / 239500800  ZORLAYICI(ii)  | 78s
+c13 n=12: R(J) baglantisiz=0 | n=12 J_yol=5940 ulasilan=239500800 / 239500800  ZORLAYICI(ii)  | 89s
+grid3 n=12: R(J) baglantisiz=0 | n=12 J_yol=62 ulasilan=239500752 / 239500800  DEGIL(ii) ornek_ulasilamayan: 0 3 4 5 2 1 7 10 9 6 8 11  | 74s

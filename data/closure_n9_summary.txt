@@ -1,0 +1,1 @@
+ileri_ihlal=12 geri_ihlal=8 graf=261080 cift=451925 

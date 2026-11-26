@@ -1,0 +1,4 @@
+# n=12, delta>=6: every graph contains a spanning P_12^2, ladder P_6 x K_2, or d13 (v_i~v_{i+1}, v_i~v_{i+3})
+# (skipped counter 'kare_yol_atlanan' counts all three); ladder and d13 are forcing at n=12 (see forcing_skeletons.txt)
+kare_yol_atlanan=495369040 hamilton_yolu_yok=0 ore_degil=0 toplam=495369040 incelenen=0 baglantisiz=0 en_cok_yol=0
+# containment code cross-checked against brute force on 400 random graphs (n=8): 0 mismatches (code/check_skeleton_containment.py)

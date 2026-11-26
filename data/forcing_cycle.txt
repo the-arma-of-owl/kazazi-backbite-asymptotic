@@ -1,0 +1,6 @@
+C_n n=6: n=6 J_yol=6 ulasilan=360 / 360  ZORLAYICI(ii)
+C_n n=7: n=7 J_yol=7 ulasilan=2520 / 2520  ZORLAYICI(ii)
+C_n n=8: n=8 J_yol=8 ulasilan=20160 / 20160  ZORLAYICI(ii)
+C_n n=9: n=9 J_yol=9 ulasilan=181440 / 181440  ZORLAYICI(ii)
+C_n n=10: n=10 J_yol=10 ulasilan=1814380 / 1814400  DEGIL(ii)
+C_n n=11: n=11 J_yol=11 ulasilan=19958136 / 19958400  DEGIL(ii)

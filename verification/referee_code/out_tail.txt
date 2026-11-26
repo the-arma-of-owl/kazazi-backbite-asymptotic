@@ -1,0 +1,2 @@
+sample n=10 d>=4: non-square graphs sampled=3000, no_HP=0, disconnected=0
+TAILDONE

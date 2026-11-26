@@ -1,0 +1,10 @@
+ladder n=8: #HP=14 R(J) comps=1  (ii) reached 20160/20160 forcing=True
+prism n=8: #HP=72 R(J) comps=1  (ii) reached 20160/20160 forcing=True
+d13 n=8: #HP=44 R(J) comps=1  (ii) reached 20160/20160 forcing=True
+c13 n=8: #HP=576 R(J) comps=1  (ii) reached 20160/20160 forcing=True
+d13 n=9: #HP=59 R(J) comps=1  (ii) reached 181440/181440 forcing=True
+c13 n=9: #HP=855 R(J) comps=1  (ii) reached 181440/181440 forcing=True
+ladder n=10: #HP=22 R(J) comps=1  (ii) reached 1814400/1814400 forcing=True
+prism n=10: #HP=130 R(J) comps=1  (ii) reached 1814400/1814400 forcing=True
+d13 n=10: #HP=122 R(J) comps=1  (ii) reached 1814400/1814400 forcing=True
+c13 n=10: #HP=1920 R(J) comps=1  (ii) reached 1814400/1814400 forcing=True

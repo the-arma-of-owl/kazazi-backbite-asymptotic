@@ -1,0 +1,8 @@
+GERI_IHLAL H?bDNPv u=0 v=8 du=4 dv=6 bilesen(G)=2 yol(G)=18
+GERI_IHLAL H?bDMzj u=6 v=7 du=4 dv=6 bilesen(G)=2 yol(G)=21
+GERI_IHLAL H?bDMzn u=6 v=7 du=4 dv=6 bilesen(G)=2 yol(G)=24
+GERI_IHLAL H?`fMZR u=6 v=7 du=5 dv=5 bilesen(G)=2 yol(G)=22
+GERI_IHLAL H?Bed`~ u=0 v=8 du=3 dv=7 bilesen(G)=2 yol(G)=18
+GERI_IHLAL H?Bedh~ u=0 v=8 du=3 dv=7 bilesen(G)=2 yol(G)=18
+GERI_IHLAL H?Bedl~ u=0 v=8 du=3 dv=7 bilesen(G)=2 yol(G)=18
+GERI_IHLAL H?Bell~ u=0 v=8 du=3 dv=7 bilesen(G)=2 yol(G)=18

@@ -1,0 +1,6 @@
+code/bbconn
+code/forcing
+code/sabituc
+code/frontonly
+__pycache__/
+*.o

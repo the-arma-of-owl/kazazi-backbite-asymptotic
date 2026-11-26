@@ -1,0 +1,1 @@
+kare_yol_atlanan=961693 hamilton_yolu_yok=12 ore_degil=0 toplam=1249973 incelenen=288268 baglantisiz=0 en_cok_yol=115200

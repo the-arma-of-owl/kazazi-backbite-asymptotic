@@ -1,0 +1,5 @@
+BITTI n10_d5: graf=108376 sabit_uc_baglantisiz=0 
+BITTI n8_d3: graf=2590 sabit_uc_baglantisiz=136 
+BITTI n9_d4: graf=15471 sabit_uc_baglantisiz=12 
+BITTI n7_d3: graf=150 sabit_uc_baglantisiz=9 
+BITTI n8_d2c: graf=7442 sabit_uc_baglantisiz=3280 

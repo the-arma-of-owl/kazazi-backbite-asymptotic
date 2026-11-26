@@ -1,0 +1,10 @@
+n=5 Ore (sigma2>=n):
+OZET toplam=21 ore_degil=16 kare_yol_atlanan=4 hamilton_yolu_yok=0 incelenen=1 baglantisiz=0 en_cok_yol=14
+n=6 Ore (sigma2>=n):
+OZET toplam=112 ore_degil=91 kare_yol_atlanan=13 hamilton_yolu_yok=0 incelenen=8 baglantisiz=0 en_cok_yol=72
+n=7 Ore (sigma2>=n):
+OZET toplam=853 ore_degil=785 kare_yol_atlanan=59 hamilton_yolu_yok=0 incelenen=9 baglantisiz=0 en_cok_yol=324
+n=8 Ore (sigma2>=n):
+OZET toplam=11117 ore_degil=10614 kare_yol_atlanan=447 hamilton_yolu_yok=0 incelenen=56 baglantisiz=0 en_cok_yol=2304
+n=9 Ore (sigma2>=n):
+OZET toplam=261080 ore_degil=256138 kare_yol_atlanan=4788 hamilton_yolu_yok=0 incelenen=154 baglantisiz=0 en_cok_yol=21600
